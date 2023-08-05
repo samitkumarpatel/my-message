@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: @project.name@
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      username: root
+      password: secret
+      database: mydatabase
