@@ -7,3 +7,8 @@ spring:
       username: root
       password: secret
       database: mydatabase
+
+logging:
+  level:
+    com:
+      mongodb: TRACE
